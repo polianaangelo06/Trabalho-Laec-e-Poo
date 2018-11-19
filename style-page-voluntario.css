@@ -1,0 +1,71 @@
+#voluntario{padding-top: 10%}
+
+#voluntario h3{margin-left: 5%; margin-bottom: 4%}
+
+#voluntario h1{margin-top: 4%; margin-bottom: 4%; text-align: center; font-weight: 600}
+
+
+#formulario{
+	width: 100%;
+	margin: 50px auto; /*centraliza*/
+	text-align: center;
+
+}
+
+#formulario h3{
+	width: 100%
+	float:left;
+	text-align: left;
+	margin-bottom: 4%;  /*separar*/
+	color: #333; font-size: 17px;
+}
+
+
+#formulario fieldset{
+	background: white;
+	border: 0 none;
+	border-right: 5px;
+	-moz-border-right: 5px;
+	-webkit-border-right: 5px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px;
+	box-sizing: border-box;/*fieldset nao pode passar do tamanho border-box: 15px*/
+	width: 80%;
+	margin: 0 10%; /*centraliza*/
+
+}
+
+#formulario input, textarea{
+	padding: 10px;
+	border: 1px solid rgba(255,165,0, 0.9);
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	outline: none;
+	box-sizing: border-box;
+	width: 100%;
+	font: 14px "Trebuchet MS", tahoma, arial;
+	color: #228B22;
+	margin-bottom: 10px; /*separar inputs*/
+}
+
+#formulario .btn_form{
+	width: 100px;
+	background: #FFD700;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 12px 0;
+	float: left;
+	margin-right: 5%;
+}
+
+#formulario .btn_form:hover{ background:rgba(255,140,0, 0.9); cursor: pointer; }
+
+.formulario, fieldset{ 
+  margin: 20px 0 0; 
+  color: #16a085; 
+  font-size: 12px;
+  float: left;
+} 
+

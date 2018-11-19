@@ -1,0 +1,21 @@
+<h3>Venha conhecer nosso <p></p> lar e tenha uma <p></p> experiência linda!</h3>
+
+.title h3{
+	font-size: 1.5em;
+	color: #fff;
+	font-size: 20px;
+	margin-left: 3%;
+	
+	font-weight:bold;
+	margin-top: 15%;
+
+}
+
+https://codepen.io/k-ivan/pen/VKakXO?editors=1100
+<p>Realize sua doação através do Banco do Brasil Ag 0391-3 CC 78.030-8</p> 
+
+Suas doações para o Lar do Idoso podem ser feitas pela internet e podem ser em dinheiro ou doações de bens de consumo. Qualquer quantia faz muita diferença para nós!
+SUA AJUDA RECONSTRÓI ESPERANÇA!
+
+Amáveis, alegres e cheios de histórias para contar. Venha até o Lar do Idoso e conheça nossos velhinhos, você terá uma experiência que, apesar da simplicidade, será inesquecível e com muita luz.
+Marque a vida dos nossos velhinhos com sua visita, ela pode mudar o dia deles para melhor!
