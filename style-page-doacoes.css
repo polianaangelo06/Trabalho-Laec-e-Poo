@@ -1,0 +1,44 @@
+#doacoes h1{
+	margin-bottom: 2%;
+	font-size: 1.2em;
+	font-weight:600;
+	padding: 4% 2%;
+	text-align: center;
+}
+
+#doacoes h3{
+   font-size: 1em;
+   color: #130400;
+   margin-bottom: 2%;
+   font-weight:400;
+   text-align: left;
+   margin-left: 6%;
+   margin-right: 3%;
+   text-align:justify-all;
+}
+
+#dimdim h2
+{
+  margin-left: 20px
+}
+
+#dimdim a{ 
+
+  float: left !important;
+  background-color: #fff;
+  margin-bottom: 3%;
+  margin-left: 6%;}
+
+.btn-pg-doar{
+	background-color: #fff; 
+	color: black; 
+	border: 1px solid rgba(255,165,0, 0.9);
+  margin-left: 6%;
+  margin-bottom: 2%;
+  height: 30px;
+  width: 110px;
+
+}
+
+
+#doacoes fieldset h2{ font-size: 20px; font-weight: 0}

@@ -23,7 +23,7 @@
 	<link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<!-- -->
 	<link rel="icon"  href="Icones/logott.png">
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 </head>
 <body>
 
@@ -41,7 +41,7 @@
 				<li><a href="#home" onclick="desaparecer(1)">Home</a></li>
 				<li><a href="#voluntario" onclick="desaparecer(2)">Ser Voluntário</a></li>
 				<li><a href="#doacoes" onclick="desaparecer(3)">Doações</a></li>
-				<li><a href="#localizacao" onclick="desaparecer(4)">Localização</a></li>
+				<li><a href="#contato" onclick="desaparecer(4)">Contato</a></li>
 				<li><a href="#sobre"  onclick="desaparecer(5)">Sobre</a></li>
 			</ul>
 		</nav>
@@ -58,200 +58,184 @@
 	</div>
 			
     <main class="servicos">
-    		<h1>Nossos idosos precisam da sua ajuda!
-    		</h1>
+    		<h1>Nossos idosos precisam da sua ajuda!</h1>
 			<h4> Doe e nos ajude a comprar:</h4>
 		<article class="servico">
 			<div class="inner">
-				<a href="#"><p>Alimentos</p></a>
-				<a href="#"><img src="Icones/alimentos.png"></a>
-				<a href="#"><button id="btn-doar" onclick="desaparecer(3)">Ajudar</button></a>
+				<p>Alimentos</p>
+				<img src="Icones/alimentos.png">
+				<a href="#"><button id="btn-doar" onclick="desaparecer(3)">DOAR</button></a>
 			</div>
 		</article>
 
 		<article class="servico">
 			<div class="inner">
-				<a href="#"><p>Fraldas Geriátricas</p></a>
-				<a href="#"><img src="Icones/fraldas.png"></a>
-				<a href="#"><button id="btn-doar" onclick="desaparecer(3)">Ajudar</button></a>
+				<p>Fraldas Geriátricas</p>
+				<img src="Icones/fraldas.png">
+				<a href="#"><button id="btn-doar" onclick="desaparecer(3)">DOAR</button></a>
 			</div>
 		</article>
 
 		<article class="servico">
 			<div class="inner">
-				<a href="#"><p>Produtos de Higiene</p></a>
-				<a href="#"><img src="Icones/higiene.png"></a>
-				<a href="#"><button id="btn-doar" onclick="desaparecer(3)">Ajudar</button></a>
+				<p>Produtos de Higiene</p>
+				<img src="Icones/higiene.png">
+				<a href="#"><button id="btn-doar" onclick="desaparecer(3)">DOAR</button></a>
 			</div>
 		</article>
 
 		<article class="servico">
 			<div class="inner">
-				<a href="#"><p>Bens Materiáis</p></a>
-				<a href="#"><img src="Icones/bensmateriais.png"></a>
-				<a href="#"><button id="btn-doar" onclick="desaparecer(3)">Ajudar</button></a>
+				<p>Bens Materiáis</p>
+				<img src="Icones/bensmateriais.png">
+				<a href="#"><button id="btn-doar" onclick="desaparecer(3)">DOAR</button></a>
 			</div>
 		</article>
 	</main>
-
 	
-   <!-- 
-    <section class="box-dicas">
-    <div class="box effect1"> 
-    	<h3>Você sabe o por que fazer um trabalho voluntário? Conheça algumas razões de se envolver nessas ações cheias de amor:</h3><p>1-Exercer a cidadania.</p>
-    	<p>2-Apreender algo novo.</p>
-    	<p>3-Encontrar sua causa.</p>
-    	<p>4-Fazer o bem.</p>
-    	<p>5-Fazer parte de um novo mundo.</p>
-    	<p>6- Viver uma experiência sem igual.</p>
-    	<h2>Aqui no Lar do Idoso estamos sempre aceitando voluntários. Venha nos ajudar a mudar a vida do nossos velhinhos ♥</h2>
-    </div>
-    -->
-
-	<section id="section-video">
-		<h1>Precisamos de doações para continuar a construção do nosso Almoxarifado. Nosso lar necessita de um espaço destinado para armazenar e estocar os suprimentos e mantimentos de nossos moradores.</h1>
-		<h3>Ainda temos um grande caminho pela frente. Abrace essa causa e faça já sua doação:</h3>
-		<h3> Banco do Brasil Ag 0391-3 CC 78.030-8</h3>
-		<video autoplay loop id="video-background" muted>
-	  	<source src="imagens/video.mp4" type="video/mp4">
-		</video>
+   <section id="section-video">
+   			<div class="info">
+			   	<h1>Precisamos de doações para continuar a construção do nosso Almoxarifado. Nosso lar necessita de um espaço destinado para armazenar e estocar os suprimentos e mantimentos de nossos moradores.</h1>
+				<h2>Ainda temos um grande caminho pela frente. Abrace essa causa e faça já sua doação:</h2>
+				<h3> Banco do Brasil Ag 0391-3 CC 78.030-8</h3>
+				<h2>Ou se preferir doe online pelo Pagseguro:</h2>
+				<a href="https://pagseguro.uol.com.br/checkout/error.jhtml#rmcl" target="_blank">Doar Pelo Pag</a>
+				<video autoplay loop id="video-background" muted>
+		  	<source src="imagens/video.mp4" type="video/mp4">
+			</div>
+			
+			</video>
    </section> 
 
 </section> 
 
         <section id="voluntario" class="invisivel">
-              	 <div><img src="imagens/idoooooso.png"></div>
-		         <h1>Venha ser Nosso VOLUNTÁRIO!</h1>
-                 <h3> Para se voluntariar basta preencher as informações abaixo:</h3>
-                
+              	 <div id="fundo"><img src="imagens/idoooooso.png"></div>
+		         <h1>Venha ser nosso voluntário!</h1>
+                 <h4> Para se voluntariar basta preencher as informações abaixo:</h4>
+          
             <form id="formulario">
                 <fieldset id="page_cadastro">
    	    			<h3>Informe seus dados:</h3>
     				<input type="text" id="nome" placeholder="Digite seu nome completo" autocomplete="off"">
     				<input type="text" id="email" placeholder="Email" autocomplete="off">
-    				<input type="text" id="telefone" placeholder="Telefone" autocomplete="off">
-					<input type="text" id="login" placeholder="Login">
-    				<input type="passwourd" id="senha" placeholder="Digite sua Senha" autocomplete="off">
-    				<h3>Informe as Atividades que deseja Realizar:</h3></p>
-	    				<div class="atividades">
-	    					<p><input type="checkbox" name="ch3" /> Atividades Lúdicas</p>         
-		                    <p><input type="checkbox" name="ch4" />Atividades Fisicas</p>  
-		                    <p><input type="checkbox" name="ch5" /> Jogos e Brincadeiras</p>       
-		                    <p><input type="checkbox" name="ch7" />Teatro</p>
-		                    <p><input type="checkbox" name="ch6" /> Musica</p>                     
-		                    <p><input type="checkbox"/> Dinamicas de grupo</p>   
-		                    <p><input type="checkbox" name="ch8"/>Leitura</p>                      
-		                    <p><input type="checkbox"/> Cuidados ao idoso</p>
-		                    <p><input type="checkbox" name="ch9" />Limpeza em geral</p>  
-	    				</div>
-               		<input type="submit" class="btn_form" value="cadastrar" onclick="cadastrar()">
+    				<input type="number" id="telefone" placeholder="Telefone" autocomplete="off">
+    			    <h3>Dia em que deseja Visitar o Lar:</h3>
+    			    <input type="date" id="dia">
+    				<h3>Informe as Atividades que deseja Realizar:</h3>
+    				<textarea class="msg" cols="35" rows="8" placeholder="ex:ajudar na limpeza, tocar músicas, fazer teatro..." id="atividade"></textarea>
+	     			<input type="submit" class="btn_form" value="Enviar" onclick="cadastrar()">
        			</fieldset>
     	    </form>
-		</section>
+    	  		</section>
 
 		<section id="doacoes" class="invisivel">
 			     <h1>Faça agora mesmo a sua doação!</h1>
-			     <h3>Suas doações para o Lar do Idoso podem ser em dinheiro ou doações de bens de consumo. Qualquer quantia faz muita diferença para nós!</h3>
+			     <h3>Suas doações para o Lar do Idoso podem ser em dinheiro ou doações de bens de consumo.</h3>
+			     <h3>Qualquer quantia faz muita diferença para nós!</h3>
 
-			   <div>			 
-			         <button onclick="desaparecer(6)">Doar dinheiro</button>
+			  			 
+			         <button class="btn-pg-doar" onclick="desaparecer(6)">Doar dinheiro</button>
 			     		<div id="dimdim" class="invisivel">
 					     	<h2>Doe agora mesmo:</h2>
 					     	<h3> Banco do Brasil Ag 0391-3 CC 78.030-8</h3>
 					     	<h2>Ou se preferir doe online pelo Pagseguro:</h2>
-					     	<p><a href="https://pagseguro.uol.com.br/checkout/error.jhtml#rmcl" target="_blank">Doar Pelo Pag</a></p>
+					     	<a href="https://pagseguro.uol.com.br/checkout/error.jhtml#rmcl" target="_blank">Doar Pelo Pag</a>
 			     		</div>
-			   </div>
+			   
 
- 			   <div>
-			     	<button onclick="desaparecer(7)">Doar bem</button>
+ 			       	<button class="btn-pg-doar" onclick="desaparecer(7)">Doar bens</button>
 			            <div id="bem" class="invisivel">
-					     	 <form>
-					     	 	<p>Descriçao do Produto<input type="" name=""></p>
-				                <p>Em relação ao estado de uso do produto:</p>
-				                <input type="radio" name="opcao"> Novo
-					     	 </form>
-			     		</div>
-			   </div>
+			            	<form id="formulario">
+			            	  <fieldset>
+				            	  <h1>Informe sobre o produto:</h1> 
+				             	  <input type="text" placeholder="Local onde o produto se encontra" id="local">    
+								  <p>Em relação ao estado de uso do produto:</p>
+	         					  <textarea name="text"  placeholder="Comment" id="estado"></textarea>
+	         					  <input type="submit" class="btn_form" value="Doar" onclick="guardar()">
+							  </fieldset> 
+							</form>
+					     </div>
+			 
 
 		</section>
 
-		<section id="localizacao" class="invisivel">
+		<section id="contato" class="invisivel">
 			      <h1> Entre em Contato conosco: </h1>
-                  <p>Fone: (67) 3424-5859</p>
-                  <p>Endereço: Rua Major Capilé, 3467. Jardim Central.</p>
-                  <p> CEP 79805-011. Dourados/MS.</p>
-                  <p>(Atrás da Escola 'Menodora')</p> 
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3693.42921465926!2d-54.79873508547099!3d-22.223787985363405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9489a8320411b1ed%3A0x4c37f6635123284b!2sLar+do+Idoso+de+Dourados-MS!5e0!3m2!1spt-BR!2sbr!4v1530563472206" width="800" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>  
+                  <h2>Fone: (67) 3424-5859</h2>
+                  <h2>Endereço: Rua Major Capilé,3467. Jardim Central.</h2>
+                  <h2>CEP 79805-011.Dourados/MS.</h2>
+                  <h2>(Atrás da Escola 'Menodora')</h2>
+                   <div class="col social">
+		         	<h2>Ou se prefirir entre em contato pelas nossas redes sociais:</h2>
+				    <a href="https://www.facebook.com/lardoidosodouradosms/" target="_blank">
+				      		<img src="Icones/facebook.png"  style="width: 32px; margin-bottom: 5%; float: left; margin-left: 6%;">
+				    </a>
+				    <a href="https://www.instagram.com/lardoidosodourados/?fbclid=IwAR03tvFXVlibKnQR6FlRnhNJIGt21aPwUmTNSGs1hNoeK3LiciBz3RBFJ44" target="_blank">
+				      		<img src="Icones/instagram.png"  style="width: 32px; margin-bottom: 5%; float: left; margin-left: 6%;">
+				    </a>
+				   	</div> 
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3693.42921465926!2d-54.79873508547099!3d-22.223787985363405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9489a8320411b1ed%3A0x4c37f6635123284b!2sLar+do+Idoso+de+Dourados-MS!5e0!3m2!1spt-BR!2sbr!4v1530563472206" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>  
 		</section>
 
 		<section id="sobre" class="invisivel">
-              kfkldmfld
+			<h1>Sobre:</h1>
+
+            <p>Essa instituição foi fundada em 19 de Agosto de 1954, pelo Rotary Clube de Dourados. O objetivo da época é desenvolvido até hoje, abrigar e amparar a velhice de Dourados e região.</p> 
+            <p>O Lar do Idoso Dourados, é uma entidade sem fins lucrativos, que atua há mais 
+			de 60 anos na assistência aos idosos em situação de vulnerabilidade. No atendimento
+			e cuidado dos idosos a instituição conta com 25 funcionários que são: um gerente, um auxiliar administrativo, 
+			um enfermeiro, seis técnicos de enfermagem, dois auxiliares de enfermagem, um fisioterapeuta, duas cozinheiras,
+			duas auxiliares de cozinha, duas lavadeiras, duas pessoas que realizam a limpeza, um responsável por serviços em geral,
+			uma cuidadora e um motorista.</p>
+
+
 		</section>
 
-	<div class="footer">
+<div id="footer">
+ <footer class="footer" class="invisivel">
+	
 		  <div class="contain">
+
 			  <div class="col">
-			    <h1>Endereço</h1>
-			    <p> R. Maj. Capilé, 3467 - Jardim Central, Dourados - MS, 79805-011</p>
-		  	</div>
-		  	<div class="col">
-		      <h1>Telefone</h1>
-		      <p>(67) 3424-5859</p>
-		   </div>
-		  
-		  <div class="col social">
-		    <h1>Redes Sociais</h1>
-		    <ul>
-		      <li><img src="https://svgshare.com/i/5fq.svg"  style="width: 32px;"></li>
-		      <li><img src="https://svgshare.com/i/5eA.svg" width="32" style="width: 32px;"></li>
-		      <li><img src="https://svgshare.com/i/5f_.svg" width="32" style="width: 32px;"></li>
-		    </ul>
-		  </div>
-		<div class="clearfix"></div>
-		</div>
-</div>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-    	<!--<footer>
-	  <div id="footer">
-		  <div class="tomottoWrap">
-			    <div id="tomotto">
-			      <h1>Entre em contato conosco:</h1>
-				</div>
-		  </div>
-		  <div class="lookWrap">
-		    <div id="look">
-		      <div class="section">
-		        <h3>Endereço:</h3>
-		         <p> R. Maj. Capilé, 3467 - Jardim Central, Dourados - MS, 79805-011</p>
+			     <h1>Endereço</h1>
+			     <p> R. Maj. Capilé, 3467 - Jardim Central, Dourados - MS, 79805-011</p>
+		  	  </div>
+		  	  <div class="col">
+			     <h1>Telefone</h1>
+			     <p>(67) 3424-5859</p>
 		      </div>
-		      <div class="section">
-		        <h3>Telefone:</h3>
-		         <p>(67) 3424-5859</p>
-		          <h2>Ou entre em contato pela rede social: </h2>
-		         <div class="social-icons">
-	    		 	<a href="https://www.facebook.com/lardoidosodouradosms/" target="_blank"><img src="Icones/facebook.png"></a>
-	   	       	 </div>
-		   	  </div> 
+		 	  <div class="col social">
+		         <h1>Redes Sociais</h1>
+			    <ul>
+			      <li><a href="https://www.facebook.com/lardoidosodouradosms/" target="_blank">
+			      		<img src="Icones/facebook.png"  style="width: 32px;">
+			      	  </a>
+			      </li>
+			       <li><a href="https://www.instagram.com/lardoidosodourados/?fbclid=IwAR03tvFXVlibKnQR6FlRnhNJIGt21aPwUmTNSGs1hNoeK3LiciBz3RBFJ44" target="_blank">
+			      		<img src="Icones/instagram.png"  style="width: 32px;">
+			      	  </a>
+			      </li>
+			    </ul>
 		  </div>
+		
 		</div>
-	  </div>
-	</footer>-->
+	
+ </footer>
+   </div>
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
 
     
 
@@ -259,5 +243,7 @@
 <script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript" src="mudar-de-pagina.js"></script>
 <script type="text/javascript" src="localStorage.js"></script>
+
+<script type="text/javascript" src="class.js"></script>
 </body>
 </html>
